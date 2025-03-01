@@ -69,18 +69,6 @@ export class PhysicsObject {
 		this.forces = state.forces;
 	}
 
-    public ShowHitbox(show: boolean): void {
-        this.hitbox?.Destroy()
-
-        if (show === false){
-            return
-        }
-
-        if (this.size === undefined){
-            
-        }
-    }
-
 	public RestoreState(state: PhysicsObjectState): void {
 		this.position = state.position;
 		this.prevPosition = this.position;
@@ -115,7 +103,7 @@ export class PhysicsObject {
 	public Update(dt: number): void {
 		this.prevPosition = this.position;
 		let totalAccel = new Vector3(0, 0, 0);
-        
+
 		for (const f of this.forces) {
 			totalAccel = totalAccel.add(f);
 		}
