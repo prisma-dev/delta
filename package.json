@@ -1,5 +1,5 @@
 {
-  "name": "@rbxts/delta",
+  "name": "delta",
   "version": "1.0.0",
   "description": "A lightweight deterministic physics library for Roblox.",
   "main": "out/init.lua",
@@ -10,8 +10,8 @@
     "prepublishOnly": "pnpm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "prismatyx",
+  "license": "MIT",
   "types": "out/index.d.ts",
   "files": [
     "out",
@@ -40,5 +40,13 @@
     "@rbxts/janitor": "1.17.0-ts.1",
     "@rbxts/object-utils": "^1.0.4",
     "@rbxts/services": "^1.5.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisma-dev/delta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prisma-dev/delta/issues"
+  },
+  "homepage": "https://github.com/prisma-dev/delta#readme"
 }
