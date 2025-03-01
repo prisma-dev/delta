@@ -1,0 +1,43 @@
+{
+  "name": "@rbxts/delta",
+  "version": "1.0.0",
+  "description": "A lightweight deterministic physics library for Roblox.",
+  "main": "out/init.lua",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "concurrently \"rbxtsc -w\" \"rojo serve\"",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "out/index.d.ts",
+  "files": [
+    "out",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rbxts/compiler-types": "3.0.0-types.0",
+    "@rbxts/testez": "0.4.2-ts.0",
+    "@rbxts/types": "^1.0.839",
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.10",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.5.2",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@rbxts/janitor": "1.17.0-ts.1",
+    "@rbxts/object-utils": "^1.0.4",
+    "@rbxts/services": "^1.5.5"
+  }
+}
