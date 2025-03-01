@@ -4,6 +4,7 @@
   "description": "A lightweight deterministic physics library for Roblox.",
   "main": "out/init.lua",
   "scripts": {
+    "build-npm": "rbxtsc --type package",
     "build": "rbxtsc",
     "watch": "concurrently \"rbxtsc -w\" \"rojo serve\"",
     "prepublishOnly": "pnpm run build"
