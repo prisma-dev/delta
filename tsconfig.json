@@ -19,9 +19,9 @@
 
 		// configurable
 		"rootDir": "src",
-		"outDir": "delta",
+		"outDir": "out",
 		"incremental": true,
-		"tsBuildInfoFile": "delta/tsconfig.tsbuildinfo",
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
 		"declaration": true
 	}
 }
