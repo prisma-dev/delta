@@ -37,15 +37,20 @@ The library provides a modular, deterministic physics simulation system for Robl
 
 ## Installation
 
-### TypeScript
+### NPM
 
 1. In the terminal run: `npm i @rbxts/delta`
 
-### Luau
+### Pesde
 
 1. For luau you must use the [pesde](https://pesde.dev/) package manager
 2. To add the package run: `pesde add prismatyx/delta`
 3. to install the package run `pesde install`
+
+### Roblox
+
+1. For Roblox, navigate to the [github releases page](https://github.com/prisma-dev/delta/releases)
+2. Download the rbxm file of the latest version
 
 ## Usage
 
