@@ -4,7 +4,7 @@ description = "Deterministic physics library for Roblox"
 authors = ["prismatyx"]
 repository = "https://github.com/prisma-dev/delta"
 license = "MIT"
-includes = ["out/**/*.luau", "out/**/*.lua","pesde.toml"]
+includes = ["out/**/*.luau", "out/**/*.lua","README.md","pesde.toml"]
 
 [target]
 environment = "roblox"

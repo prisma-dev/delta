@@ -1,5 +1,5 @@
 {
-  "name": "delta",
+  "name": "@rbxts/delta",
   "version": "1.0.0",
   "description": "A lightweight deterministic physics library for Roblox.",
   "main": "out/init.lua",
